@@ -21,7 +21,7 @@
         "composer/installers": "^2.3",
         "cweagans/composer-patches": "^2@beta",
         "drupal/bpmn_io": "^2.0.6",
-        "drupal/canvas": "1.0.0-alpha1",
+        "drupal/canvas": "1.0-beta1",
         "drupal/canvas_demo": "@dev",
         "drupal/canvas_page": "@dev",
         "drupal/core": "11.2.0",
@@ -78,10 +78,6 @@
         "patches": {
             "drupal/gin": {
                 "#3497793: Dialog styles are not loading correctly in Experience Builder": "https://www.drupal.org/files/issues/2025-07-08/3497793-2025-07-08-gin-dialog.patch"
-            },
-            "drupal/canvas": {
-                "#3531991: Drupal Canvas has limited built-in metatag features, disable advanced form fields there as initial stop-gap": "https://www.drupal.org/files/issues/2025-09-08/42.diff",
-                "#3542392: Page path alias is not actually saved when pathauto is installed": "https://www.drupal.org/files/issues/2025-09-09/43.diff"
             }
         }
     }
