@@ -1,5 +1,5 @@
 {
-    "_hash": "e7a94332373125f69cd0b97fbab18ff97000e9865153564a08b1b8459069aed6",
+    "_hash": "e59b65255251c7bd3a1d18671caa38333615c12b0d60695c9373cb38e34f723d",
     "patches": {
         "drupal/gin": [
             {
@@ -7,28 +7,6 @@
                 "description": "#3497793: Dialog styles are not loading correctly in Experience Builder",
                 "url": "https://www.drupal.org/files/issues/2025-07-08/3497793-2025-07-08-gin-dialog.patch",
                 "sha256": "a17a85da2c4c160bc370a486b434bb22dd937ef32c09e374ca97f32250f70b5e",
-                "depth": 1,
-                "extra": {
-                    "provenance": "root"
-                }
-            }
-        ],
-        "drupal/canvas": [
-            {
-                "package": "drupal/canvas",
-                "description": "#3531991: Drupal Canvas has limited built-in metatag features, disable advanced form fields there as initial stop-gap",
-                "url": "https://www.drupal.org/files/issues/2025-09-08/42.diff",
-                "sha256": "f9e51f666ed489e881127ab3807d4922b986130578c88b9bf44101364eb94712",
-                "depth": 1,
-                "extra": {
-                    "provenance": "root"
-                }
-            },
-            {
-                "package": "drupal/canvas",
-                "description": "#3542392: Page path alias is not actually saved when pathauto is installed",
-                "url": "https://www.drupal.org/files/issues/2025-09-09/43.diff",
-                "sha256": "4de185fdb44005440e36587a63ff215d4a8bbe57b06a2ff111730bee72cab497",
                 "depth": 1,
                 "extra": {
                     "provenance": "root"
