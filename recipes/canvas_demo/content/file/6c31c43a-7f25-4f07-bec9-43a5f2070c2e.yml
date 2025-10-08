@@ -9,11 +9,11 @@ default:
       target_id: 1
   filename:
     -
-      value: 'Header-image (5).png'
+      value: 'Header-image5.png'
   uri:
     -
-      value: 'public://2025-03/Header-image (5).png'
-      url: /sites/default/files/2025-03/Header-image%20%285%29.png
+      value: 'public://2025-03/Header-image5.png'
+      url: /sites/default/files/2025-03/Header-image5.png
   filemime:
     -
       value: image/png
