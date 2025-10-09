@@ -7,7 +7,7 @@ description: 'Provides install-time tweaks for Drupal CMS. Not to be used in pro
 distribution:
   name: Drupal CMS
   install:
-    finish_url: 'canvas/canvas_page/1'
+    finish_url: 'canvas/editor/canvas_page/1'
     theme: drupal_cms_installer_theme
 
 forms: []
