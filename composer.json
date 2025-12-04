@@ -1,6 +1,6 @@
 {
     "name": "phenaproxima/xb-demo",
-    "description": "A pre-alpha demo of Drupal Canvas running on top of Drupal CMS.",
+    "description": "A demo of Drupal Canvas with the Drupal brand.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "repositories": {
@@ -21,7 +21,7 @@
         "composer/installers": "^2.3",
         "cweagans/composer-patches": "^2@beta",
         "drupal/bpmn_io": "^2.0.6",
-        "drupal/canvas": "1.0-beta2",
+        "drupal/canvas": "1.0.0-rc5",
         "drupal/canvas_demo": "@dev",
         "drupal/canvas_page": "@dev",
         "drupal/core": "11.2.0",

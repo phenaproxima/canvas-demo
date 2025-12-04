@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b22ad3e1201b4710b740edc5894a3e2",
+    "content-hash": "dbadecf907a59e33af9f373d2e1bd10a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1371,17 +1371,17 @@
         },
         {
             "name": "drupal/canvas",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-rc5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/canvas.git",
-                "reference": "1.0.0-beta2"
+                "reference": "1.0.0-rc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/canvas-1.0.0-beta2.zip",
-                "reference": "1.0.0-beta2",
-                "shasum": "8570984dc23698e6d6849b0900f1fe6eed616e65"
+                "url": "https://ftp.drupal.org/files/projects/canvas-1.0.0-rc5.zip",
+                "reference": "1.0.0-rc5",
+                "shasum": "48597f069fd62485f0438da294e77621a869855e"
             },
             "require": {
                 "drupal/core": "^11.2",
@@ -1389,8 +1389,8 @@
             },
             "require-dev": {
                 "devizzent/cebe-php-openapi": "^1.1.4",
-                "drupal/ai": "^1.1",
-                "drupal/ai_agents": "^1.2@beta",
+                "drupal/ai": "^1.2.1",
+                "drupal/ai_agents": "^1.2",
                 "drupal/jsonapi_menu_items": "^1.2.8",
                 "drupal/metatag": "^2.1",
                 "drupal/pathauto": "^1.13",
@@ -1403,24 +1403,16 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-beta2",
-                    "datestamp": "1760011666",
+                    "version": "1.0.0-rc5",
+                    "datestamp": "1764184923",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "RC releases are not covered by Drupal security advisories."
                     }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Drupal\\renamer\\Rename\\": "scripts/src"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "scripts": {
-                "rename": [
-                    "Drupal\\renamer\\Rename\\ConverterCommand"
-                ],
                 "composer-root": [
                     "d=.; i=0; while [ $i -lt 10 ]; do if [ -f \"$d/composer.json\" ] && cat \"$d/composer.json\" | grep -q '\"type\"' && cat \"$d/composer.json\" | grep -q '\"project\"'; then readlink -f \"$d\"; break; fi; d=\"../$d\"; i=$((i+1)); done"
                 ],
@@ -1498,6 +1490,10 @@
                     "homepage": "https://www.drupal.org/user/959536"
                 },
                 {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                },
+                {
                     "name": "tedbow",
                     "homepage": "https://www.drupal.org/user/240860"
                 },
@@ -1512,6 +1508,10 @@
                 {
                     "name": "wim leers",
                     "homepage": "https://www.drupal.org/user/99777"
+                },
+                {
+                    "name": "wotnak",
+                    "homepage": "https://www.drupal.org/user/3558113"
                 }
             ],
             "description": "Canvas",
@@ -9270,7 +9270,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "cweagans/composer-patches": 10,
-        "drupal/canvas": 10,
+        "drupal/canvas": 5,
         "drupal/canvas_demo": 20,
         "drupal/canvas_page": 20,
         "drupal/core-composer-scaffold": 20,
@@ -9281,7 +9281,7 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
