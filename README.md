@@ -1,12 +1,12 @@
-# Pre-release demo of Drupal Canvas
+# Demo of Drupal Canvas
 
 <img src="https://github.com/user-attachments/assets/c7c3283b-2580-4434-8cce-771cb02aa1f7" width="300" align="right" />
 
 Drupal Canvas (or Canvas for short) is Drupal's next-generation page building tool, [currently under heavy development on drupal.org](https://www.drupal.org/project/canvas). This is a demo package of Drupal to try out Drupal Canvas with a demo design system and sample pages. 😎
 
-This repository is intended to provide a **throwaway demo** of Drupal Canvas. **Drupal Canvas is not yet stable** and could change anything, at any time, without warning.
+This repository is intended to provide a **throwaway demo** of Drupal Canvas. While Drupal Canvas is stable, **this demo was not built in a way to be used as a starting point**.
 
-There is no update path yet; data loss is possible. Additionally, this demo project will be _abandoned_ when Drupal CMS includes sufficient functionality to supersede the demo. That is expected around DrupalCon Vienna in October 2025.
+Additionally, this demo project will be _abandoned_ when a Drupal CMS stable release includes sufficient functionality to supersede the demo. That is expected in January 2026.
 
 **You ABSOLUTELY _SHOULD NOT_ use this project to build a real site.**
 
@@ -44,4 +44,4 @@ You don't _have_ to use DDEV; any tech stack that supports Drupal should work ju
 
 - Issues found in the demo should be submitted at <https://github.com/phenaproxima/canvas-demo/issues>
 - Problems or suggestions for Drupal Canvas should be submitted at <https://www.drupal.org/project/issues/canvas>
-- Want to chat? [Find us in the #experience-builder-is-now-drupal-canvas channel on Drupal Slack.](https://drupal.slack.com/archives/C072JMEPUS1)
+- Want to chat? [Find us in the #drupal-canvas channel on Drupal Slack.](https://drupal.slack.com/archives/C072JMEPUS1)
