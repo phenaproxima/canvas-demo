@@ -57,6 +57,7 @@
         "sort-packages": true,
         "optimize-autoloader": true
     },
+    "abandoned": true,
     "extra": {
         "drupal-scaffold": {
             "locations": {
